@@ -1,4 +1,4 @@
-// === Smooth scroll for anchor links ===
+
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
     e.preventDefault();
@@ -7,13 +7,13 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
-// === Navbar scroll effect ===
+
 const navbar = document.querySelector('.navbar');
 window.addEventListener('scroll', () => {
   navbar.classList.toggle('scrolled', window.scrollY > 50);
 });
 
-// === Mobile nav toggle ===
+
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks  = document.querySelector('.nav-links');
 if (navToggle && navLinks) {
@@ -23,13 +23,13 @@ if (navToggle && navLinks) {
   });
 }
 
-// === Hero fade-in on load ===
+
 window.addEventListener('load', () => {
   document.querySelector('.hero-content')?.classList.add('fade-in');
   document.querySelector('.page-hero')?.classList.add('fade-in');
 });
 
-// === Scroll reveal: cards, case studies, form groups ===
+
 const revealObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -43,7 +43,7 @@ document.querySelectorAll('.card, .case-study, .form-group, .contact-info').forE
   revealObserver.observe(el);
 });
 
-// === Navbar hide/show on scroll direction ===
+
 let lastScroll = 0;
 window.addEventListener('scroll', () => {
   const current = window.scrollY;
