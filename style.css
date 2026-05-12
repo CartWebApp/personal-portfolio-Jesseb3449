@@ -242,7 +242,7 @@ footer {
     grid-template-columns: 21.25rem 1fr;
 }
 
-/* Sidebar */
+
 .sidebar {
     background: #1e2937;
     color: white;
@@ -411,7 +411,7 @@ footer {
     border-color: var(--orange);
 }
 
-/* Make sure the link doesn't have underline */
+
 .logo {
     text-decoration: none;
 }
