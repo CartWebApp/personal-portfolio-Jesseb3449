@@ -1,135 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jesse Bevins | Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Jesse Bevins</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="logo">JB</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html" class="active">Portfolio</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="contact.html">Contact</a></li>
+<nav>
+    <h2 class="logo">JB</h2>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
     </ul>
-    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
-  </nav>
+</nav>
 
-  <div class="page-hero">
-    <h1>Portfolio</h1>
-    <p>A selection of projects and case studies from my time as a CART student.</p>
-  </div>
+<main>
 
-  <section class="page-section portfolio-section">
+<section class="section hidden">
+    <h1>Programming Case Studies</h1>
+</section>
 
-    
-    <article class="case-study">
-      <div class="case-study-image">
-        
-        <img src="#" alt="Bioshield Website screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-        <div class="img-placeholder">
-         
-        </div>
-      </div>
-      <div class="case-study-body">
-        <span class="case-tag">Web Design</span>
+<section class="section case-study hidden">
+    <div class="case-content">
         <h2>Bioshield Website</h2>
-        <p>Planning on writing something.</p>
-        <div class="case-study-links">
-          <a href="#" class="cs-btn">Live Site →</a>
-          <a href="#" class="cs-btn cs-btn-ghost">View Code →</a>
-        </div>
-      </div>
-    </article>
 
-   
-    <article class="case-study case-study--reverse">
-      <div class="case-study-image">
-        <img src="#" alt="PawPal Website screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-        <div class="img-placeholder">
-          
-          <img src="/images/Screenshot 2026-05-04 225431.png">
-        </div>
-      </div>
-      <div class="case-study-body">
-        <span class="case-tag">Web Design</span>
+        <h3>Technology Used</h3>
+        <p>HTML5, Visual Studio Code, GitHub, Netlify, Claude AI</p>
+
+        <h3>Concepts Learned</h3>
+        <p>
+            Learned semantic HTML structure, accessibility practices,
+            and the basics of website organization.
+        </p>
+
+        <h3>Challenges Faced</h3>
+        <p>
+            Struggled identifying proper semantic HTML tags and converting layouts
+            from generic divs into accessible semantic structures.
+        </p>
+
+        <h3>Habits of Mind</h3>
+        <p>
+            Demonstrated persistence and investigation by researching documentation
+            and solving problems independently.
+        </p>
+    </div>
+</section>
+
+<section class="section case-study hidden">
+    <div class="case-content">
         <h2>PawPal Website</h2>
-        <p>Planning on writing something.</p>
-        <div class="case-study-links">
-          <a href="#" class="cs-btn">Live Site →</a>
-          <a href="#" class="cs-btn cs-btn-ghost">View Code →</a>
-        </div>
-      </div>
-    </article>
 
-    
-    <article class="case-study">
-      <div class="case-study-image">
-        <img src="#" alt="EECU Budget Calculator screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-        <div class="img-placeholder">
-          <img src="#">
-        </div>
-      </div>
-      <div class="case-study-body">
-        <span class="case-tag">Tool / UX</span>
+        <h3>Technology Used</h3>
+        <p>HTML5, CSS3, JavaScript, Figma, GitHub, Netlify</p>
+
+        <h3>Concepts Learned</h3>
+        <p>
+            Learned responsive design, CSS animations, wireframing,
+            and team collaboration.
+        </p>
+
+        <h3>Challenges Faced</h3>
+        <p>
+            Struggled adapting layouts to different screen sizes and learning Figma.
+        </p>
+
+        <h3>Habits of Mind</h3>
+        <p>
+            Used communication and collaboration while balancing responsibilities
+            with a project partner.
+        </p>
+    </div>
+</section>
+
+<section class="section case-study hidden">
+    <div class="case-content">
         <h2>EECU Budget Calculator</h2>
-        <p>Planning on writing something.</p>
-        <div class="case-study-links">
-          <a href="#" class="cs-btn">Live Site →</a>
-          <a href="#" class="cs-btn cs-btn-ghost">View Code →</a>
-        </div>
-      </div>
-    </article>
 
-    
-    <article class="case-study case-study--reverse">
-      <div class="case-study-image">
-        <img src="YOUR_IMAGE_HERE.jpg" alt="Frankenstein Response screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-        <div class="img-placeholder">
-          
-        </div>
-      </div>
-      <div class="case-study-body">
-        <span class="case-tag">Writing</span>
-        <h2>Frankenstein Response</h2>
-        <p>Planning on writing something.</p>
-        <div class="case-study-links">
-          <a href="#" class="cs-btn">Read Essay </a>
-        </div>
-      </div>
-    </article>
+        <h3>Technology Used</h3>
+        <p>HTML5, CSS3, JavaScript, Chart.js, GitHub, Netlify</p>
 
-    <!-- PROJECT 5 -->
-    <article class="case-study">
-      <div class="case-study-image">
-        <img src="#" alt="Research Paper cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-        <div class="img-placeholder">
-         
-        </div>
-      </div>
-      <div class="case-study-body">
-        <span class="case-tag">Research</span>
-        <h2>Research Paper</h2>
-        <p>p</p>
-        <div class="case-study-links">
-          <a href="#" class="cs-btn">Read Paper</a>
-        </div>
-      </div>
-    </article>
+        <h3>Concepts Learned</h3>
+        <p>
+            Learned DOM manipulation and how to implement real-time charts using Chart.js.
+        </p>
 
-  </section>
+        <h3>Challenges Faced</h3>
+        <p>
+            Struggled configuring Chart.js categories and dynamically updating data.
+        </p>
 
-  <footer class="site-footer">
-    <p> 2026 .</p>
-  </footer>
+        <h3>Habits of Mind</h3>
+        <p>
+            Demonstrated persistence and investigation by researching documentation
+            and debugging chart issues.
+        </p>
+    </div>
+</section>
 
-  <script src="app.js"></script>
+<section class="section hidden">
+    <h1>Writing Case Studies</h1>
+</section>
+
+<section class="section case-study hidden">
+    <div class="case-content">
+        <h2>Frankenstein Constructed Response</h2>
+
+        <p>
+            This writing assessment improved my critical thinking and time management skills.
+            During a timed writing session, I had to quickly organize ideas, stay focused,
+            and commit to one strong argument without second-guessing myself.
+        </p>
+    </div>
+</section>
+
+<section class="section case-study hidden">
+    <div class="case-content">
+        <h2>Final Research Paper</h2>
+
+        <p>
+            This project focused on animal enrichment and required extensive research,
+            source evaluation, and communication with zoos. Through this project,
+            I strengthened my investigation skills and ability to manage long-term assignments.
+        </p>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Jesse Bevins</p>
+</footer>
+
 </body>
 </html>

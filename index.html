@@ -1,86 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jesse | Developer Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesse Bevins | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="logo">JB</div>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  
-  </nav>
+<header>
+    <nav>
+        <h2 class="logo">JB</h2>
 
-  <header class="hero">
-    <div class="hero-bg-shape"></div>
-    <div class="hero-content">
-      <p class="hero-eyebrow">Welcome to my portfolio</p>
-      <h1>Hello, I'm <span class="accent">Jesse</span></h1>
-      <p class="tagline">Aspiring Developer CART Student Problem Solver</p>
-      <a href="portfolio.html" class="cta-btn">Explore My Work <span class="btn-arrow">→</span></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero section hidden">
+    <div>
+        <h1>Jesse Bevins</h1>
+        <p>
+            High school junior focused on web development, communication,
+            and problem-solving through real-world projects at CART.
+        </p>
+
+        <a href="portfolio.html" class="btn">View Portfolio</a>
     </div>
-    <div class="hero-scroll-hint">Scroll</div>
-  </header>
+</section>
 
-  <section class="gateway">
-    <div class="gateway-header">
-      <h2>Where to go</h2>
-    </div>
-    <div class="gateway-grid">
+<section class="section hidden">
+    <h2>Featured Projects</h2>
 
-      <div class="card" >
-        <div class="card-icon">👤</div>
-        <h3>About Me</h3>
-        <p>My journey and growth as a developer</p>
-        <a href="about.html" class="card-link">View <span>→</span></a>
-      </div>
+    <div class="grid cards">
 
-      <div class="card" >
-        <div class="card-icon">🗓️</div>
-        <h3>5-Year Plan</h3>
-        <p>Physics + grad school path</p>
-        <a href="about.html#plan" class="card-link">View <span>→</span></a>
-      </div>
+        <article class="card">
+            <h3>Bioshield Website</h3>
+            <p>
+                First HTML5 website focused on semantic structure and accessibility.
+            </p>
+        </article>
 
-      <div class="card" >
-        <div class="card-icon">💼</div>
-        <h3>Portfolio</h3>
-        <p>Projects  case studies</p>
-        <a href="portfolio.html" class="card-link">View <span>→</span></a>
-      </div>
+        <article class="card">
+            <h3>PawPal Website</h3>
+            <p>
+                Team-built pet wellness tracker using responsive design and JavaScript.
+            </p>
+        </article>
 
-      <div class="card" >
-        <div class="card-icon">📄</div>
-        <h3>Resume</h3>
-        <p>Skills and experience</p>
-        <a href="resume.html" class="card-link">View <span>→</span></a>
-      </div>
-
-      <div class="card" >
-        <div class="card-icon">✉️</div>
-        <h3>Contact</h3>
-        <p>Get in touch</p>
-        <a href="contact.html" class="card-link">View <span>→</span></a>
-      </div>
+        <article class="card">
+            <h3>EECU Budget Calculator</h3>
+            <p>
+                Real-time budget calculator using DOM manipulation and Chart.js.
+            </p>
+        </article>
 
     </div>
-  </section>
+</section>
 
-  <footer class="site-footer">
-    <p> 2026 Jesse  .</p>
-  </footer>
+<section class="section hidden">
+    <h2>Quick Links</h2>
 
-  <script src="app.js"></script>
+    <div class="grid cards">
+        <a class="card link-card" href="about.html">About Me</a>
+        <a class="card link-card" href="resume.html">Resume</a>
+        <a class="card link-card" href="portfolio.html">Case Studies</a>
+        <a class="card link-card" href="contact.html">Contact</a>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Jesse Bevins</p>
+</footer>
+<script src="app.js"></script>
 </body>
 </html>
